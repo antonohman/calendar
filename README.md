@@ -1,2 +1,2 @@
 # calender
-Trying to improve my Javascriptskills by creating a calender.
+Trying to improve my Javascript skills by creating a calender.

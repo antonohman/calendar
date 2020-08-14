@@ -3,7 +3,7 @@
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
     color: rgb(255, 255, 255);
-    overflow: hidden;
+    overflow-x: hidden;
 }
 
 .flex {
@@ -11,19 +11,20 @@
 }
 
 .toDoSection {
-    background: rgb(58, 58, 58);
+    background: #6A381F;
     height: 100vh;
     width: 20rem;
+    border-right: #DCAB6B 0.2rem solid;
 }
 
 .toDoSection p {
     justify-content: center;
-    background: purple;
+    background: #6E0D25;
     padding: 0.4rem;
 }
 
 .calendar {
-    background: rgb(255, 0, 0);
+    background: #6E0D25;
     height: 100vh;
     width: 100vw;
     flex-wrap: wrap;
@@ -32,15 +33,22 @@
 
 .month {
     justify-content: center;
-    background: blue;
+    background: #6A381F;
     height: 4rem;
     width: 100vw;
     align-items: center;
+    margin-bottom: 1rem;
+}
+
+.days {
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .day {
-    background: green;
-    border: purple 0.1rem solid;
+    background: #FFFFB3;
+    border: #DCAB6B 0.2rem solid;
+    margin: 0.2rem;
     height: 10rem;
     width: 10rem;
 }
